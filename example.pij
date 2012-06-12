@@ -1,0 +1,31 @@
+# vim:ft=python
+
+class myclass object
+    def doit self
+        print "hello"
+
+    def doit2
+        print "hey"
+
+myclass().doit()
+
+print repr(__package__)
+print __file__
+
+print "hello"
+
+def myfunction arg
+    print "my function: %s" % arg
+
+def otherfunction first, second
+    print first
+    print second
+
+if True
+    print "it's true"
+else
+    print "it's false"
+
+myfunction( 25 )
+
+otherfunction("a", "b")
