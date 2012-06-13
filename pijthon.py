@@ -88,7 +88,10 @@ class Loader(object):
 
 class Importer(object):
     """
-    The Importer class is responsible for resolving module locations. In our case we only search for files with the .pij extension. If these aren't found we return None to delegate to any other hooks or the internal resolver.
+    The Importer class is responsible for resolving module locations. In our
+    case we only search for files with the .pij extension. If these aren't
+    found we return None to delegate to any other hooks or the internal
+    resolver.
     """
 
     def find_module(self, fullname, path=None):
